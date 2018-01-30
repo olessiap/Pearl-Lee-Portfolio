@@ -4,6 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
  */
 
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+/*NAVBAR*/
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+/*CAROUSEL */
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -12,4 +30,46 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/*ABOUT ME*/
+
+.about-me {
+	text-align: center;
+}
+
+.about-me p {
+	padding-top:20px;
+}
+
+.about-me a {
+	font-size: 40px;
+	padding:10px;
+
+}
+
+.about-me a:hover {
+	opacity: .5;
+	text-decoration: none;
+}
+
+.py-5 a,
+.py-5 p {
+	color:black !important;
+	font-weight: 400;
+	padding-top: 20px;
+	text-align: center;
+	opacity:1;
+}
+
+.py-5 a:hover,
+.py-5 p:hover {
+	opacity:.5;
+	text-decoration: none;
+}
+
+
+.coming-soon {
+	text-align: center;
+	margin-top:30%
 }
